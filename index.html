@@ -1,31 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi comida</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </head>
 <body>
     
     <div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg bg-light">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <a class="navbar-brand" href="#">Ñam ñam</a>
+              <a class="navbar-brand" href="index.html">Ñam ñam</a>
               <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Comidas</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Comidas</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="contacto.html">Contacto</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -36,6 +36,164 @@
             </div>
           </nav>
     </div>
-    
+
+    <div>
+       <h1 class="text-center mt-4 fw-normal">Comidas</h1> 
+    </div>
+
+    <main>
+      
+      <div class="row m-1 g-4">
+
+        <div class="me-3 col-12 col-sm-6 col-md-2" style="width: 18rem;">
+          <div class="card h-100" >
+            <img src="imagenes/comidas/1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Título 1</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Ver receta</button>
+              <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Título 1</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <img src="imagenes/comidas/1.jpg" class="card-img-top" alt="...">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur doloremque cum facere cupiditate architecto? Quaerat sunt perferendis consequatur odio enim. Ab soluta ad harum quos autem quibusdam suscipit sunt sed?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="me-3 col-12 col-sm-6 col-md-2" style="width: 18rem;">
+          <div class="card h-100" >
+            <img src="imagenes/comidas/2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Título 2</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions2" aria-controls="offcanvasWithBothOptions">Ver receta</button>
+              <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions2" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel2">Título 2</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <img src="imagenes/comidas/2.jpg" class="card-img-top" alt="...">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque temporibus esse quisquam tempora hic ea quibusdam modi cupiditate dolorem eum amet consectetur optio labore debitis dolor vero nam, inventore omnis.</p>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="me-3 col-12 col-sm-6 col-md-2" style="width: 18rem;">
+          <div class="card h-100" >
+            <img src="imagenes/comidas/3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Título 3</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions3" aria-controls="offcanvasWithBothOptions">Ver receta</button>
+              <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions3" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel3">Título 3</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <img src="imagenes/comidas/3.jpg" class="card-img-top" alt="...">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt architecto alias iusto magni reiciendis voluptatibus maiores optio! Doloribus pariatur tenetur repellendus deleniti officia veritatis dolores, quae debitis, hic porro eligendi.</p>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="me-3 col-12 col-sm-6 col-md-2" style="width: 18rem;">
+          <div class="card h-100" >
+            <img src="imagenes/comidas/4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Título 4</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions4" aria-controls="offcanvasWithBothOptions">Ver receta</button>
+              <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions4" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel4">Título 4</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <img src="imagenes/comidas/4.jpg" class="card-img-top" alt="...">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque repellat repellendus animi debitis. Accusantium deserunt culpa, nisi error obcaecati itaque cum aliquam numquam. Neque sint, vel itaque aliquam ipsam ea.</p>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="me-3 col-12 col-sm-6 col-md-2" style="width: 18rem;">
+          <div class="card h-100" >
+            <img src="imagenes/comidas/5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Título 5</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions5" aria-controls="offcanvasWithBothOptions">Ver receta</button>
+              <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions5" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel5">Título 5</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <img src="imagenes/comidas/5.jpg" class="card-img-top" alt="...">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quas eius quae quo? Accusamus, molestiae nesciunt! Mollitia voluptas dolor aperiam assumenda ad ea quis cum expedita voluptates. Aliquam, rem qui?</p>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="me-3 col-12 col-sm-6 col-md-2" style="width: 18rem;">
+          <div class="card h-100" >
+            <img src="imagenes/comidas/6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Título 6</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions6" aria-controls="offcanvasWithBothOptions">Ver receta</button>
+              <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions6" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel6">Título 6</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ratione fugiat est quasi, odit delectus, a atque voluptate error eaque rem fugit itaque quibusdam laboriosam sunt? Asperiores maxime architecto ipsa.</p><img src="imagenes/comidas/6.jpg" class="card-img-top" alt="...">
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="me-3 col-12 col-sm-6 col-md-2" style="width: 18rem;">
+          <div class="card h-100" >
+            <img src="imagenes/comidas/7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Título 7</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions7" aria-controls="offcanvasWithBothOptions">Ver receta</button>
+              <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions7" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel7">Título 7</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <img src="imagenes/comidas/7.jpg" class="card-img-top" alt="...">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, veritatis sapiente adipisci dignissimos recusandae maiores ad minima? Eaque voluptatem, quos, qui, dolore repellat temporibus commodi corrupti laborum vero magni mollitia.</p>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="navbar-dark bg-dark">
+        <div class="text-center navbar-nav me-auto mb-2 mb-lg-0">
+            <p class="nav-link active">Copyright @2023</p>
+        </div>
+      </div>
+    </footer>
+  
 </body>
 </html>
